@@ -2,9 +2,13 @@
 	"name": "csvtojson-converter",
 	"displayName": "CSV to JSON Converter",
 	"description": "Convert CSV files to JSON and vice versa",
+	"icon": "images/icon.png",
 	"version": "1.0.0",
 	"publisher": "Chukwuamaka Osuji",
-	"license": "MIT",
+	"galleryBanner": {
+		"color": "#e3f2e4"
+	},
+	"license": "SEE LICENSE IN LICENSE.md",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Chukwuamaka/csvtojson-converter.git"
