@@ -6,7 +6,8 @@
 	"version": "1.0.0",
 	"publisher": "Chukwuamaka Osuji",
 	"galleryBanner": {
-		"color": "#e3f2e4"
+		"color": "#e3f2e4",
+		"theme": "dark"
 	},
 	"license": "SEE LICENSE IN LICENSE.md",
 	"repository": {

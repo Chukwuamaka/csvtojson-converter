@@ -3,8 +3,6 @@
 const vscode = require('vscode');
 const fs = require('fs');
 const path = require('path');
-const filePath = vscode.window.activeTextEditor.document.uri.fsPath;
-const folderPath = filePath.split("\\").slice(0,-1).join("\\");
 
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
@@ -24,6 +22,8 @@ function activate(context) {
 
 	// Implementation of the CSV to JSON conversion
 	let toJSON = vscode.commands.registerCommand('csv.toJSON', function () {
+		const filePath = vscode.window.activeTextEditor.document.uri.fsPath;
+		const folderPath = filePath.split("\\").slice(0,-1).join("\\");
 		const newFilePath = `${folderPath}\\${path.basename(filePath, ".csv")}.json`;
 		// Function to read the file
 		function readFile() {
@@ -65,6 +65,8 @@ function activate(context) {
 
 	// Implementation of the JSON to CSV conversion
 	let toCSV = vscode.commands.registerCommand('json.toCSV', function () {
+		const filePath = vscode.window.activeTextEditor.document.uri.fsPath;
+		const folderPath = filePath.split("\\").slice(0,-1).join("\\");
 		const newFilePath = `${folderPath}\\${path.basename(filePath, ".json")}.csv`;
 		// Function to read the file
 		function readFile() {
@@ -99,13 +101,13 @@ function activate(context) {
 		var body = "";
 		const values = Object.values(data);
 		// Get the values for the headers of each row and store it in the 'body' variable
-		for (var i = 0; i < values.length; i++) {
+		for (var i = 0; i < values[0].length; i++) {
 			var output = [];
 			values.forEach(value => {
 				output.push(value[i]);
 			});
 			body += output.join(',');
-			body += (i !== values.length - 1) ? '\n' : '';
+			body += (i !== values[0].length - 1) ? '\n' : '';
 		}
 		/* array.forEach((object, index, array) => {
 		 	body += Object.values(object).join(',');

@@ -1,65 +1,69 @@
-# csv-json README
+![CSV to JSON Converter Icon](images/icon.png)
+# CSV to JSON Converter
 
-This is the README for your extension "csv-json". After writing up a brief description, we recommend including the following sections.
+A Visual Studio Code extension that converts documents between CSV and JSON formats. Converting documents between the two formats is now as easy as it sounds, plus you get the converted document in a well-structured format.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+* Swift conversion.
+* Saves converted document to a new file with the same name and folder as those of the old file, and it prompts you to open the new file after conversion.
+* Converts documents with readable and well-structured formatting.
+* Dedicated keyboard shortcuts for quick and easy conversion.
 
-For example if there is an image subfolder under your extension project workspace:
+## Usage
 
-\!\[feature X\]\(images/feature-x.png\)
+* Focus the cursor on the text editor containing the document to be converted
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+* Bring up the command palette using the keyboard shortcut Ctrl+Shift+P on Windows/Linux or Cmd+Shift+P or F1 on macOS
 
-## Requirements
+* Search for "Convert CSV to JSON" or "Convert JSON to CSV" on the dialog box that comes up, as the case may be, then press Enter.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+* This extension comes with a dedicated keyboard shortcut. Thus, alternatively, when the text editor is on focus, use the keyboard shortcut Ctrl+Alt+J on Windows/Linux or Cmd+Option+J on macOS to convert a CSV document to JSON, and Ctrl+Alt+C on Windows/Linux or Cmd+Option+C on macOS to convert a JSON document to CSV.
 
-## Extension Settings
+![Converting from CSV to JSON Illustration](images/csvToJSON.gif)
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+![Converting from JSON to CSV Illustration](images/jsonToCSV.gif)
 
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
+This is the initial release of the extension. Check the [features](https://github.com/Chukwuamaka/csvtojson-converter#features) section to know the current capabilities of the extension.
 
-### 1.0.1
+## Known Issues
 
-Fixed issue #.
+The current version of this extension does not have a good support for multilevel/nested JSON to CSV conversion yet. You should consider contributing to the source code.
 
-### 1.1.0
+To report an issue, go to [issues](https://github.com/Chukwuamaka/csvtojson-converter/issues).
 
-Added features X, Y, and Z.
+## Contribution
+
+Here are some awesome ways you can contribute:
+
+* Extend the capabilities of the extension by contributing to the source code.
+> To contribute to the source code, edit the extension.js file and make corresponding changes in the package.json file.
+* Report and solve issues/bugs. 
+* Make feature requests.
+* Review source code changes.
+* Review the documentation and make pull requests for anything, from typos to new content.
+
+We would be happy to receive your contributions towards this project. You will be contributing to the common good.
+
+## Feedback
+
+Let me know what you think by:
+* Sending a [mail](mailto:osujichukwuamaka@gmail.com)
+* Sending a private message on [LinkedIn](https://www.linkedin.com/in/chukwuamakaosuji/) or [Twitter](https://twitter.com/SenseiAmaka)
+
+## License
+
+This extension and its code are licensed under the MIT license.
+
+## Credits
+
+Extension logo/icon was designed by [JC Graphics](https://twitter.com/Jrizzy)
 
 -----------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
