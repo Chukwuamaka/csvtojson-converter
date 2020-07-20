@@ -4,7 +4,7 @@
 	"description": "Convert CSV files to JSON and vice versa",
 	"icon": "images/icon.png",
 	"version": "1.0.0",
-	"publisher": "Chukwuamaka Osuji",
+	"publisher": "Chukwuamaka",
 	"galleryBanner": {
 		"color": "#FFFFFF",
 		"theme": "dark"
