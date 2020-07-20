@@ -25,8 +25,13 @@
 		"Other"
 	],
 	"keywords": [
-		"json",
 		"csv",
+		"json",
+		"csv-converter",
+		"json-converter",
+		"csvtojson",
+		"jsontocsv",
+		"javascript",
 		"convert"
 	],
 	"activationEvents": [
