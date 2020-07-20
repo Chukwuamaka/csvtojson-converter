@@ -62,7 +62,9 @@ This extension and its code are licensed under the MIT license.
 
 ## Credits
 
-Extension logo/icon was designed by [JC Graphics](https://twitter.com/Jrizzy)
+Extension logo/icon was designed by 
+
+[![Designer's Logo](images/khameleoon.png)](https://www.instagram.com/khameleoon/)
 
 -----------------------------------------------------------------------------------------------------------
 
