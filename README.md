@@ -47,7 +47,7 @@ Here are some awesome ways you can contribute:
 * Review source code changes.
 * Review the documentation and make pull requests for anything, from typos to new content.
 
-We would be happy to receive your contributions towards this project :smiley:. You will be contributing to the common good.
+We would be happy to receive your contributions towards this project 😃. You will be contributing to the common good.
 
 ## Feedback
 
@@ -67,4 +67,4 @@ Extension logo/icon was designed by
 
 -----------------------------------------------------------------------------------------------------------
 
-**Enjoy!** :smiley:
+**Enjoy!** 😃
