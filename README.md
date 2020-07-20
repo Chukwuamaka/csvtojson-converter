@@ -1,4 +1,4 @@
-![CSV to JSON Converter Icon](images/icon.png)
+![CSV to JSON Converter Icon](https://github.com/Chukwuamaka/csvtojson-converter/blob/master/images/icon.png)
 # CSV to JSON Converter
 
 A Visual Studio Code extension that converts documents between CSV and JSON formats. Converting documents between the two formats is now as easy as it sounds, plus you get the converted document in a well-structured format.
@@ -20,9 +20,9 @@ A Visual Studio Code extension that converts documents between CSV and JSON form
 
 * This extension comes with a dedicated keyboard shortcut. Thus, alternatively, when the text editor is on focus, use the keyboard shortcut Ctrl+Alt+J on Windows/Linux or Cmd+Option+J on macOS to convert a CSV document to JSON, and Ctrl+Alt+C on Windows/Linux or Cmd+Option+C on macOS to convert a JSON document to CSV.
 
-![Converting from CSV to JSON Illustration](images/csvToJSON.gif)
+![Converting from CSV to JSON Illustration](https://github.com/Chukwuamaka/csvtojson-converter/blob/master/images/csvToJSON.gif)
 
-![Converting from JSON to CSV Illustration](images/jsonToCSV.gif)
+![Converting from JSON to CSV Illustration](https://github.com/Chukwuamaka/csvtojson-converter/blob/master/images/jsonToCSV.gif)
 
 ## Release Notes
 
@@ -63,7 +63,7 @@ This extension and its code are licensed under the MIT license.
 
 Extension logo/icon was designed by 
 
-[![Designer's Logo](images/khameleoon.png)](https://www.instagram.com/khameleoon/)
+[![Designer's Logo](https://github.com/Chukwuamaka/csvtojson-converter/blob/master/images/khameleoon.png)](https://www.instagram.com/khameleoon/)
 
 -----------------------------------------------------------------------------------------------------------
 
