@@ -1,4 +1,3 @@
-![CSV to JSON Converter Icon](images/icon.png)
 # CSV to JSON Converter
 
 A Visual Studio Code extension that converts documents between CSV and JSON formats. Converting documents between the two formats is now as easy as it sounds, plus you get the converted document in a well-structured format.
@@ -47,7 +46,7 @@ Here are some awesome ways you can contribute:
 * Review source code changes.
 * Review the documentation and make pull requests for anything, from typos to new content.
 
-We would be happy to receive your contributions towards this project :smiley:. You will be contributing to the common good.
+We would be happy to receive your contributions towards this project 😃. You will be contributing to the common good.
 
 ## Feedback
 
@@ -67,4 +66,4 @@ Extension logo/icon was designed by
 
 -----------------------------------------------------------------------------------------------------------
 
-**Enjoy!** :smiley:
+**Enjoy!** 😃
