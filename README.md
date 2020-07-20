@@ -24,7 +24,6 @@ A Visual Studio Code extension that converts documents between CSV and JSON form
 
 ![Converting from JSON to CSV Illustration](images/jsonToCSV.gif)
 
-
 ## Release Notes
 
 ### 1.0.0
