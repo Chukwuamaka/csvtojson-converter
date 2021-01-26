@@ -25,15 +25,16 @@ function activate(context) {
 		const filePath = vscode.window.activeTextEditor.document.uri.fsPath;
 		const folderPath = filePath.split("\\").slice(0,-1).join("\\");
 		const newFilePath = `${folderPath}\\${path.basename(filePath, ".csv")}.json`;
+		console.log(filePath, folderPath, newFilePath, vscode.Uri.file(newFilePath));
 		// Function to read the file
 		function readFile() {
 			try {
-				vscode.window.showInformationMessage("Converting file to JSON");
+				vscode.window.showInformationMessage("Reading file content...");
 				return fs.readFileSync(filePath, 'utf-8');
 			}
 			catch (err) {
 				vscode.window.showErrorMessage("CSV file could not be read");
-				throw err;
+				// throw err;
 			}
 		}
 		const csv = readFile();
@@ -133,7 +134,7 @@ function activate(context) {
 	context.subscriptions.push(toJSON);
 	context.subscriptions.push(toCSV);
 }
-exports.activate = activate;
+// exports.activate = activate;
 
 // this method is called when your extension is deactivated
 function deactivate() {}
