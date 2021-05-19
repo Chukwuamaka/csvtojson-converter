@@ -24,7 +24,7 @@ function activate(context) {
 	let toJSON = vscode.commands.registerCommand('csv.toJSON', function () {
 		const filePath = vscode.window.activeTextEditor.document.uri.fsPath;
 		const folderPath = filePath.split("\\").slice(0,-1).join("\\");
-		const newFilePath = `${folderPath}\\${path.basename(filePath, ".csv")}.json`;
+		const newFilePath = `${folderPath}\\${path.basename(filePath, path.extname(filePath))}.json`;
 		// Function to read the file
 		function readFile() {
 			try {
@@ -36,8 +36,8 @@ function activate(context) {
 				throw err;
 			}
 		}
-		const csv = readFile();
-		const arrays = csv.split("\n").map(user => user.split(","));
+		const data = readFile();
+		const arrays = data.split("\n").map(user => user.split(path.extname(filePath).toLowerCase() === '.tsv' ? "\t" : ","));
 		const keys = arrays[0];
 		const values = arrays.slice(1);
 		// Create a new array of objects with the keys and values of each object corresponding to the headers and values of each row of the csv respectively

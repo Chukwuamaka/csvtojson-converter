@@ -1,14 +1,20 @@
 {
 	"name": "csvtojson-converter",
 	"displayName": "CSV to JSON Converter",
-	"description": "Convert documents between CSV and JSON file formats.",
+	"description": "Convert documents between CSV/TSV and JSON file formats.",
 	"icon": "images/icon.png",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"publisher": "Chukwuamaka",
 	"author": {
 		"name": "Chukwuamaka Osuji",
 		"url": "https://www.linkedin.com/in/chukwuamakaosuji/"
 	},
+	"contributors": [
+		{
+			"name": "Leonard Meerwood",
+			"url": "https://l3nny.dev"
+		}
+	],
 	"galleryBanner": {
 		"color": "#F8F8F8",
 		"theme": "light"
